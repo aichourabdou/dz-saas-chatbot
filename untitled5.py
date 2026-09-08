@@ -13,7 +13,7 @@ import gradio as gr
 from groq import Groq
 
 # 1. إعداد المفتاح الحقيقي لـ Groq API الخاص بك
-client = Groq(api_key="my key ")
+client = Groq(api_key="my_key ")
 
 # 2. نص السياسات والمنتجات والأسعار بالتفصيل داخل الكود
 store_policy_text = """
